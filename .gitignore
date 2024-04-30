@@ -1,3 +1,7 @@
+###########################################################################
+# Based on https://github.com/github/gitignore/blob/main/Python.gitignore #
+###########################################################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -158,3 +162,34 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# vscode
+.vscode/launch.json
+.vscode/settings.json
+client-apps/editor/test-results/**
+
+# Jupiter notebook
+*.fld
+
+# vscode
+# .vscode/launch.json
+.vscode/settings.json
+client-apps/editor/test-results/**
+
+# Jupiter notebook
+*.fld
+
+# Input/Output Directories
+input/
+output/
+
+.DS_Store
